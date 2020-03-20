@@ -14,7 +14,7 @@ androidSizes = {
     "-android-96x96":[96,96],
     "-android-72x72":[72,72],
     "-android-48x48":[48,48],
-    "-android-36x3&":[36,36]    
+    "-android-36x36":[36,36]    
 }
 
 def scale(inputfile, outputfile):
