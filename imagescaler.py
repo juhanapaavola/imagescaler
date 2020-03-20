@@ -29,7 +29,7 @@ def scale(inputfile, outputfile):
     img = Image.open(inputfile)
     for name, res in androidSizes.items():
         icon = resizeimage.resize_thumbnail(img, res)
-        fname = outputfile + '-' + name + '.png'
+        fname = outputfile + name + '.png'
         if os.path.exists(fname):
             os.remove(fname)
         icon.save(fname, img.format)
